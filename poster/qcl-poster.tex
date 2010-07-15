@@ -34,6 +34,47 @@
 \begin{document}
 \begin{frame}
 
+  \begin{columns}
+    % Left column
+    \begin{column}{.49\textwidth}
+      \begin{beamercolorbox}[center,wd=\textwidth]{postercolumn}
+        \begin{minipage}[T]{.95\textwidth}
+          % Parbox : to pull everything up to the top of the page, there might be better way than this
+          \parbox[t][\columnheight]{\textwidth}{
+            \begin{block}{Overview}
+              Why are we doing this?
+            \end{block}
+            \vfill
+            \begin{block}{Experimental results}
+              Put pretty pictures here
+            \end{block}
+          }
+        \end{minipage}
+      \end{beamercolorbox}
+    \end{column}
+    % Right column
+    \begin{column}{.49\textwidth}
+      \begin{beamercolorbox}[center,wd=\textwidth]{postercolumn}
+        \begin{minipage}[T]{.95\textwidth}
+          % Parbox : to pull everything up to the top of the page, there might be better way than this
+          \parbox[t][\columnheight]{\textwidth}{
+            \begin{block}{Experimental setup}
+              This is how things look
+            \end{block}
+            \vfill
+            \begin{block}{Theoretical considerations}
+              What can happen?
+            \end{block}
+            \vfill
+            \begin{block}{Future work}
+              What can happen?
+            \end{block}
+          }
+        \end{minipage}
+      \end{beamercolorbox}
+    \end{column}
+  \end{columns}
+%  \vskip1ex
 \end{frame}
 \end{document}
 
