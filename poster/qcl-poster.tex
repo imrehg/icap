@@ -1,9 +1,17 @@
-\documentclass[final,hyperref={pdfpagelabels=false}]{beamer}
+\documentclass[final,hyperref={pdfpagelabels=false,unicode}]{beamer}
 \usepackage{grffile}
 \mode<presentation>{\usetheme{IAMS1}}
 \usepackage[english]{babel}
 \usepackage[latin1]{inputenc}
 \usepackage{amsmath,amsthm, amssymb, latexsym}
+%\usepackage{CJK}
+%\usepackage{CJKutf8}
+
+% \AtBeginDocument{%
+%   \begin{CJK}{UTF8}{}}
+% \AtEndDocument{%
+%   \end{CJK}}
+
 \boldmath
 \usepackage[orientation=portrait,size=a0,scale=1.4,debug]{beamerposter}
 % change list indention level
@@ -19,6 +27,16 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% \graphicspath{{figures/}}
+
+
+
+%\CJKfamily{bsmi}
+
+
+% \author{Tsung-Han Wu (吳宗翰)}
+% \author{Yan-Long Peng (彭彥龍)}
+% \author{Sheng-Hui Lu (呂聖輝)}
+% \author{Wang-Yau Cheng (鄭王曜)}
  
 \title{\huge Ultra narrow dark resonance in high temperature caesium cell with mode-locked laser and buffer gas}
 \author{G. Imreh, T-H. Wu, C-M. Wu, T-L. Yang, W-Y. Cheng}
@@ -41,13 +59,20 @@
         \begin{minipage}[T]{.95\textwidth}
           % Parbox : to pull everything up to the top of the page, there might be better way than this
           \parbox[t][\columnheight]{\textwidth}{
-            \begin{block}{Overview}
-              Why are we doing this?
-            \end{block}
+
+            % Overview of our ideas
+            \include{overview}
+
             \vfill
-            \begin{block}{Experimental results}
-              Put pretty pictures here
-            \end{block}
+
+            % Experimental setup
+            \include{expsetup}
+
+            \vfill
+
+            % Theoretical calculations
+            \include{theoretical}
+
           }
         \end{minipage}
       \end{beamercolorbox}
@@ -58,17 +83,17 @@
         \begin{minipage}[T]{.95\textwidth}
           % Parbox : to pull everything up to the top of the page, there might be better way than this
           \parbox[t][\columnheight]{\textwidth}{
-            \begin{block}{Experimental setup}
-              This is how things look
-            \end{block}
+
+            % Background
+            \include{background}
             \vfill
-            \begin{block}{Theoretical considerations}
-              What can happen?
-            \end{block}
+
+            % Experimental results
+            \include{expresults}
             \vfill
-            \begin{block}{Future work}
-              What can happen?
-            \end{block}
+
+            % Future work, etc...
+            \include{outlook}
           }
         \end{minipage}
       \end{beamercolorbox}
@@ -77,6 +102,7 @@
 %  \vskip1ex
 \end{frame}
 \end{document}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Local Variables: 
