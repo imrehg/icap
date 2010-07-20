@@ -1,23 +1,30 @@
-\documentclass[final,hyperref={pdfpagelabels=false,unicode}]{beamer}
+%\documentclass[final,hyperref={pdfpagelabels=false,unicode}]{beamer}
+\documentclass[CJKutf8,hyperref={pdfpagelabels=false,unicode}]{beamer}
 \usepackage{grffile}
 \mode<presentation>{\usetheme{IAMS1}}
 \usepackage[english]{babel}
-\usepackage[latin1]{inputenc}
 \usepackage{amsmath,amsthm, amssymb, latexsym}
-%\usepackage{CJK}
-%\usepackage{CJKutf8}
+\usepackage{CJKutf8}
+\usepackage[T1]{fontenc}
 
-% \AtBeginDocument{%
-%   \begin{CJK}{UTF8}{}}
-% \AtEndDocument{%
-%   \end{CJK}}
+\AtBeginDocument{%
+  \begin{CJK*}{UTF8}{}}
+\AtEndDocument{%
+  \end{CJK*}}
 
-\boldmath
+\newenvironment{TChinese}{%
+  \CJKfamily{bsmi}%
+  \CJKtilde
+  \CJKnospace}{}
+
+% As it says.... bold mathematics mode
+%\boldmath
+
 \usepackage[orientation=portrait,size=a0,scale=1.4,debug]{beamerposter}
 % change list indention level
 % \setdefaultleftmargin{3em}{}{}{}{}{}
 
-%\usepackage{snapshot} % will write a .dep file with all dependencies, allows for easy bundling
+% \usepackage{snapshot} % will write a .dep file with all dependencies, allows for easy bundling
 
 \usepackage{array,booktabs,tabularx}
 \newcolumntype{Z}{>{\centering\arraybackslash}X} % centered tabularx columns
@@ -32,14 +39,8 @@
 
 %\CJKfamily{bsmi}
 
-
-% \author{Tsung-Han Wu (吳宗翰)}
-% \author{Yan-Long Peng (彭彥龍)}
-% \author{Sheng-Hui Lu (呂聖輝)}
-% \author{Wang-Yau Cheng (鄭王曜)}
- 
 \title{\huge Ultra narrow dark resonance in high temperature caesium cell with mode-locked laser and buffer gas}
-\author{G. Imreh, T-H. Wu, C-M. Wu, T-L. Yang, W-Y. Cheng}
+\author{\begin{TChinese}T-H Wu 吳宗翰, C-M Wu 吳建明, T-L Yang 楊宗霖, W-Y Cheng 鄭王曜, G Imreh\end{TChinese}}
 \institute[IAMS, Academia Sinica]{Institute of Atomic and Molecular Sciences, Academia Sinica, Taiwan}
 \date{\today}
 
