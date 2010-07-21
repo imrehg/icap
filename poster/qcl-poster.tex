@@ -3,7 +3,8 @@
 \usepackage{grffile}
 \mode<presentation>{\usetheme{IAMS1}}
 \usepackage[english]{babel}
-\usepackage{amsmath,amsthm, amssymb, latexsym}
+\usepackage{amsmath, amsthm, amssymb, latexsym}
+\usepackage{color}
 \usepackage{CJKutf8}
 \usepackage[T1]{fontenc}
 
@@ -24,7 +25,7 @@
 % change list indention level
 % \setdefaultleftmargin{3em}{}{}{}{}{}
 
-% \usepackage{snapshot} % will write a .dep file with all dependencies, allows for easy bundling
+\usepackage{snapshot} % will write a .dep file with all dependencies, allows for easy bundling
 
 \usepackage{array,booktabs,tabularx}
 \newcolumntype{Z}{>{\centering\arraybackslash}X} % centered tabularx columns
@@ -39,14 +40,14 @@
 
 %\CJKfamily{bsmi}
 
-\title{\huge Ultra narrow dark resonance in high temperature caesium cell with mode-locked laser and buffer gas}
-\author{\begin{TChinese}T-H Wu 吳宗翰, C-M Wu 吳建明, T-L Yang 楊宗霖, W-Y Cheng 鄭王曜, G Imreh\end{TChinese}}
+\title{\huge Ultra-narrow cesium dark resonance with mode-locked pump laser\\ and high temperature buffer cell}
+\author{\begin{TChinese}T-H Wu 吳宗翰, C-M Wu 吳建明, T-L Yang 楊宗霖, S-H Lu 呂聖輝, W-Y Cheng 鄭王曜, G Imreh\end{TChinese}}
 \institute[IAMS, Academia Sinica]{Institute of Atomic and Molecular Sciences, Academia Sinica, Taiwan}
 \date{\today}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newlength{\columnheight}
-\setlength{\columnheight}{105cm}
+\setlength{\columnheight}{107cm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -63,15 +64,14 @@
             % Overview of our ideas
             \include{overview}
 
-            \vfill
 
+            \vfill
+            % Background
+            \include{background}
+
+            \vfill
             % Experimental setup
             \include{expsetup}
-
-            \vfill
-
-            % Theoretical calculations
-            \include{theoretical}
 
           }
         \end{minipage}
@@ -84,14 +84,14 @@
           % Parbox : to pull everything up to the top of the page, there might be better way than this
           \parbox[t][\columnheight]{\textwidth}{
 
-            % Background
-            \include{background}
-            \vfill
-
             % Experimental results
             \include{expresults}
-            \vfill
 
+            \vfill
+            % Theoretical calculations
+            \include{theoretical}
+
+            \vfill
             % Future work, etc...
             \include{outlook}
           }
