@@ -61,11 +61,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="138.06816"
-     inkscape:cy="843.62047"
+     inkscape:cx="126.44967"
+     inkscape:cy="918.83466"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="950"
      inkscape:window-x="0"
@@ -94,10 +94,10 @@
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect9118"
-       width="225"
-       height="90"
-       x="75"
-       y="127.36218" />
+       width="223.98985"
+       height="119.29443"
+       x="76.010155"
+       y="98.067757" />
     <rect
        style="fill:none;stroke:#000000;stroke-opacity:1"
        id="rect7164"
@@ -123,14 +123,14 @@
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="175"
-       y="147.36218"
+       x="172.47462"
+       y="148.37233"
        id="text7767"><tspan
          sodipodi:role="line"
          id="tspan7769"
-         x="175"
-         y="147.36218"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Andale Mono;-inkscape-font-specification:Andale Mono">PMT</tspan></text>
+         x="172.47462"
+         y="148.37233"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">PMT</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:2.5"
        id="rect7771"
@@ -141,14 +141,14 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="95"
-       y="180.64517"
+       x="96.262688"
+       y="179.88756"
        id="text7778"><tspan
          sodipodi:role="line"
          id="tspan7780"
-         x="95"
-         y="180.64517"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Andale Mono;-inkscape-font-specification:Andale Mono">LD</tspan></text>
+         x="96.262688"
+         y="179.88756"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">LD</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -166,7 +166,8 @@
          sodipodi:role="line"
          id="tspan7788"
          x="168.75"
-         y="190.93361">Cs cell</tspan></text>
+         y="190.93361"
+         style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Cs cell</tspan></text>
     <path
        style="fill:#a80a0a;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="m 115,172.36218 4,0 71,2 55,-2 25,0 5,5 -30,0 -55,-2 -71,2 -4,0 0,-5 z"
@@ -216,5 +217,28 @@
        height="15"
        x="95"
        y="167.36218" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 80,107.36218 0,20"
+       id="path2840" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 295,107.36218 0,20"
+       id="path2842" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 80.054589,117.97108 295,117.36218"
+       id="path2844" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="160"
+       y="112.36218"
+       id="text2846"><tspan
+         sodipodi:role="line"
+         id="tspan2848"
+         x="160"
+         y="112.36218"
+         style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">170 mm</tspan></text>
   </g>
 </svg>
